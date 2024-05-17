@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="login2.css">
+</head>
+<body>
+  <div class="navbar">
+    <img src="C:\WEB DESIGN\Trip.png" alt="Logo" class="logo">
+    <div class="nav-links">
+      <a href="#" onclick="toggleDropdown(event)"><i class="fa-solid fa-bars"></i></a>
+      <div class="dropdown-content" id="dropdownMenu">
+        <a href="front.html">Home</a>
+        <a href="#">Gallery</a>
+        <a href="dest.html">Destination</a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <h1 align="center">LOGIN</h1>
+    <form class="" action="" method="post">
+      <div class="">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter your username">
+      </div>
+      <div class="">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+      </div>
+      <div class="">
+        <input type="submit" name="login" value="Login">
+        <input type="submit" name="signup" value="Sign up">
+      </div>
+    </form>
+  </div>
+  <script src="login2.js" charset="utf-8"></script>
+</body>
+</html>

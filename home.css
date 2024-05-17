@@ -1,0 +1,113 @@
+body{
+  background-image: url('https://www.thetravelfoundation.org.uk/wp-content/uploads/2016/09/O0A0129-Pano.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.main{
+  color: black;
+}
+a{
+  color: black;
+  align-items: center;
+}
+ul a{
+  padding: 90px;
+}
+.insert{
+  width: 800px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1.5px solid #03C04A;
+}
+.sub{
+  width: 95px;
+  height: 34px;
+  background-color: #03C04A;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+.ins{
+  width: 350px;
+  height: 20px;
+  border: 1.5px solid #03C04A;
+  /* border-radius: 4px; */
+}
+.subm{
+  width: 95px;
+  height: 30px;
+  background-color: #03C04A;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+.footer{
+  margin-top: 15rem;
+  background-image: url('https://wallpaperbat.com/img/887482-dark-mountain-wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+}
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+  gap: 2rem;
+}
+.footer .box-container .box h3{
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+.footer .box-container .box a{
+  color: #E5D0F0;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+}
+.footer .box-container .box a i{
+color: #A983BE;
+padding-right: 0.5rem;
+transition: .2s linear;
+padding-left: 1.5rem;
+}
+.footer .box-container .box a:hover i{
+  padding-right: 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E7EFDC;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #03C04A;
+}
+
+.logo {
+  width: 15rem;
+  height: 3rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* .nav-links a.active {
+  background-color: #4CAF50;
+  color: white;
+} */
